@@ -25,6 +25,7 @@ public class movement : MonoBehaviour
         if (distance<=radius_sense)
         {
             agent.SetDestination(mark.position);
+
         }
     }
 
