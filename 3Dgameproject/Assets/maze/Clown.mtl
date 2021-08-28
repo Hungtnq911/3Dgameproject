@@ -1,0 +1,42 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl zombie_clown_niftex_0
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump zombie_clown_niftex_3.png
+map_Kd zombie_clown_niftex_0.png
+map_Ks zombie_clown_niftex_1.png
+
+newmtl zombie_clown_niftex_4
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump zombie_clown_niftex_6.png
+map_Kd zombie_clown_niftex_4.png
+map_Ks zombie_clown_niftex_5.png
+map_d zombie_clown_niftex_4.png
+
+newmtl zombie_clown_niftex_7
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump zombie_clown_niftex_9.png
+map_Kd zombie_clown_niftex_7.png
+map_Ks zombie_clown_niftex_8.png
