@@ -5,7 +5,7 @@ using UnityEngine;
 public class trap : MonoBehaviour
 {
     public bool clue=false;
-    public float radius_sense = 3f;
+    public float radius_sense = 5f;
     trigger trigger = null;
     public List<bool> trust = new List<bool>();
 
@@ -33,7 +33,7 @@ public class trap : MonoBehaviour
                     {
                         bot.ringed = this;
 
-                        //if (check.CompareTag("Player"))
+                        if (check.CompareTag("Player"))
                             clue = true;
                         //else
                         //remove component();

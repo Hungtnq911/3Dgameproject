@@ -40,7 +40,7 @@ public class movement_harder : MonoBehaviour
                 agent.SetDestination(mark.position);
             }
 
-            if (nearby.CompareTag("trap_harder"))
+            if (nearby.CompareTag("trap"))
                 mear.Add(nearby.GetComponent<trap_harder>());
 
         }
@@ -76,6 +76,7 @@ public class movement_harder : MonoBehaviour
                 {
                     agent.isStopped = true;
                     checking();
+                    agent.SetDestination(transform.position);
                     agent.isStopped = false;
                     destiny = null;
                 }
@@ -98,6 +99,7 @@ public class movement_harder : MonoBehaviour
             if (distance < 2f)
             {
                 agent.isStopped = true;
+                agent.SetDestination(transform.position);
                 agent.isStopped = false;
             }
 
@@ -110,19 +112,19 @@ public class movement_harder : MonoBehaviour
     {
         float distance = Vector3.Distance(mark.position, transform.position);
         trap_harder smell = destiny.GetComponent<trap_harder>();
-        trap_harder k;
         
-        //if (trust.Count < 15)
-        //{
-        //    if (smell.clue)
-        //        trust.Add(true);
-        //    else
-        //        trust.Add(false);
-        //    if (distance <= radius_sense)
-        //        trust.Add(true);
-        //    else
-        //        trust.Add(false);
-        //}
+
+        if (destiny.trust.Count < 15)
+        {
+            if (smell.clue)
+                destiny.trust.Add(true);
+            else
+                destiny.trust.Add(false);
+            if (distance <= radius_sense)
+                destiny.trust.Add(true);
+            else
+                destiny.trust.Add(false);
+        }
         smell.clue = false;
     }
 

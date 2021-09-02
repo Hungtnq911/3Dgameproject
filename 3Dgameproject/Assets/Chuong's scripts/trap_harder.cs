@@ -47,8 +47,7 @@ public class trap_harder : MonoBehaviour
             bot.marked = this.GetInstanceID();
             if (trigger.CompareTag("Player"))
                 clue = true;
-            if (this.trust.Count<15)
-            this.trust.Add(true);
+            
             //else
             //remove component();
         }
