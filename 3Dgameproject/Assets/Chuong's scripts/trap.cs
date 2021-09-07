@@ -6,8 +6,8 @@ public class trap : MonoBehaviour
 {
     public bool clue=false;
     public float radius_sense = 5f;
-    trigger trigger = null;
-    public List<bool> trust = new List<bool>();
+
+ 
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +18,8 @@ public class trap : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance = new float();
-        trigger[] thing= GameObject.FindObjectsOfType<trigger>();
+       // float distance = new float();
+        //trigger[] thing= GameObject.FindObjectsOfType<trigger>();
         Collider[] trigger = Physics.OverlapSphere(this.transform.position, radius_sense);
         movement bot;
         bot = FindObjectOfType<movement>();
@@ -34,7 +34,7 @@ public class trap : MonoBehaviour
                         bot.ringed = this;
 
                         if (check.CompareTag("Player"))
-                            clue = true;
+                            this.clue = true;
                         //else
                         //remove component();
                         

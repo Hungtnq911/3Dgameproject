@@ -6,7 +6,7 @@ public class trap_harder : MonoBehaviour
 {
     public bool clue = false;
     public float radius_sense = 3f;
-    trigger trigger = null;
+
     public List<bool> trust = new List<bool>();
 
     // Start is called before the first frame update
@@ -18,17 +18,27 @@ public class trap_harder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance = new float();
+        //float distance = new float();
         
         Collider[] trigger = Physics.OverlapSphere(this.transform.position, radius_sense);
-
+        movement_harder bot;
+        bot = FindObjectOfType<movement_harder>();
         if (trigger != null)
         {
             foreach (var check in trigger)
             {
                 if ((check.CompareTag("player")) || (check.CompareTag("trigger")))
                 {
-                    ringing();
+                    if (bot.ringed == null)
+                    {
+                        bot.ringed = this;
+                        bot.marked = this.GetInstanceID();
+                        if (check.CompareTag("Player"))
+                            clue = true;
+
+                        //else
+                        //remove component();
+                    }
                     trigger = null;
                 }
             }
@@ -39,18 +49,8 @@ public class trap_harder : MonoBehaviour
 
     void ringing()
     {
-        movement_harder bot;
-        bot = FindObjectOfType<movement_harder>();
-        if (bot.ringed == null)
-        {
-            bot.ringed = this;
-            bot.marked = this.GetInstanceID();
-            if (trigger.CompareTag("Player"))
-                clue = true;
-            
-            //else
-            //remove component();
-        }
+        
+        
 
     }
 
