@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/maze test/maze test.unity
+- path: Assets/Scenes/testing field 2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
