@@ -21,9 +21,5 @@ public class Machine_brain : Agent
         float movex = actions.ContinuousActions[0];
         float movey = actions.ContinuousActions[1];
     }
-    {
-        
-
-
-    }
+    
 }
