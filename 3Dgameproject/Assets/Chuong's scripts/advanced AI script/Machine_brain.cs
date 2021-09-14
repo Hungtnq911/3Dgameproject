@@ -9,13 +9,14 @@ public class Machine_brain : Agent
 {
     public float movespedw =1f;
     public float movespedr= 2f;
-
+    public GameObject mark;
     public SensorComponent eye;
     public SensorComponent heart;
 
     public override void CollectObservations(VectorSensor sensor)
     {
-       
+        sensor.AddObservation(transform.position);
+        sensor.AddObservation(mark.transform.position);
         
     }
 
@@ -27,6 +28,20 @@ public class Machine_brain : Agent
 
         transform.position += new Vector3(movex, 0, movez) * Time.deltaTime * movespedw;
 
+    }
+    public override void Heuristic(in ActionBuffers actionsOut)
+    {
+        ActionSegment<float> ContinuousActions = actionsOut.ContinuousActions;
+        ContinuousActions[0] = Input.GetAxisRaw("Horizontal");
+        ContinuousActions[0] = Input.GetAxisRaw("Vertical");
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent<PlayerMovement>(out PlayerMovement killtarget))
+        {
+            SetReward(+1f);
+            EndEpisode();
+        }
     }
 
     private void OnDrawGizmosSelected()
