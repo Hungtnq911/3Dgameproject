@@ -359,6 +359,7 @@ GameObject:
   - component: {fileID: 655561861}
   - component: {fileID: 655561863}
   - component: {fileID: 655561862}
+  - component: {fileID: 655561864}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -461,8 +462,6 @@ MonoBehaviour:
   m_Width: 84
   m_Height: 84
   m_Grayscale: 0
-  m_ObservationType: 1
-  m_ObservationStacks: 1
   m_Compression: 1
 --- !u!114 &655561862
 MonoBehaviour:
@@ -495,21 +494,32 @@ MonoBehaviour:
   m_BrainParameters:
     VectorObservationSize: 1
     NumStackedVectorObservations: 1
-    m_ActionSpec:
-      m_NumContinuousActions: 0
-      BranchSizes: 01000000
     VectorActionSize: 01000000
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
-    hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 0}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: My Behavior
   TeamId: 0
   m_UseChildSensors: 1
-  m_UseChildActuators: 1
-  m_ObservableAttributeHandling: 0
+--- !u!114 &655561864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655561856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56dc98c446c670840abce7212835a656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
+  eye: {fileID: 655561861}
 --- !u!1 &710596429
 GameObject:
   m_ObjectHideFlags: 0

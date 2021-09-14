@@ -1,18 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.MLAgents;
+using Unity.MLAgents.Sensors;
+using Unity.MLAgents.Actuators;
 
-public class Machine_brain : MonoBehaviour
+public class Machine_brain : Agent
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    public SensorComponent eye;
+    
+    public override void CollectObservations(VectorSensor sensor)
     {
+       
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void OnActionReceived(ActionBuffers actions)
+    {
+        float movex = actions.ContinuousActions[0];
+        float movey = actions.ContinuousActions[1];
+    }
     {
         
+
+
     }
 }
