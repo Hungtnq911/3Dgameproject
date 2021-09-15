@@ -10,12 +10,32 @@ public class Machine_brain : Agent
     public float movespedw =1f;
     public float movespedr= 2f;
     public GameObject mark;
-    public SensorComponent eye;
-    public SensorComponent heart;
+    //public SensorComponent eye;
+    //public SensorComponent heart;
+    float y = new float();
+    private void FixedUpdate()
+    {
+        SetReward(-1f);
+    }
+    Vector3 kay = new Vector3();
+    private void Start()
+    {
+        kay = this.transform.position;
+    }
+
+    private void Update()
+    {
+   
+    }
+
+    public override void OnEpisodeBegin()
+    {
+        this.transform.position = Vector3.zero;
+    }
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(transform.position);
+        sensor.AddObservation(this.transform.position);
         sensor.AddObservation(mark.transform.position);
         
     }
@@ -24,22 +44,32 @@ public class Machine_brain : Agent
     {
         float movex = actions.ContinuousActions[0];
         float movez = actions.ContinuousActions[1];
-      
 
-        transform.position += new Vector3(movex, 0, movez) * Time.deltaTime * movespedw;
 
+        this.transform.position += new Vector3(movex, 0, movez) * Time.deltaTime * movespedw;
+        
     }
     public override void Heuristic(in ActionBuffers actionsOut)
     {
         ActionSegment<float> ContinuousActions = actionsOut.ContinuousActions;
         ContinuousActions[0] = Input.GetAxisRaw("Horizontal");
-        ContinuousActions[0] = Input.GetAxisRaw("Vertical");
+        ContinuousActions[1] = Input.GetAxisRaw("Vertical");
+        y = ContinuousActions[0];
+  
     }
-    private void OnTriggerEnter(Collider other)
+
+
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.TryGetComponent<PlayerMovement>(out PlayerMovement killtarget))
+        if (collision.gameObject==mark)
         {
-            SetReward(+1f);
+            
+            SetReward(+100f);
+            EndEpisode();
+        }
+
+        if (collision.gameObject.TryGetComponent<wall>(out wall yes))
+        {
             EndEpisode();
         }
     }
