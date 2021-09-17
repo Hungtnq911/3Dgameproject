@@ -1,4 +1,130 @@
+# Starting compiling UnityEngine.TestRunner.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-0b0ea8c47f7c0f444a8e8c38d0985676
+# Starting compiling UnityEngine.UI.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-1ad1baec74e307643944337c4d3cb45d
+# Starting compiling UnityEditor.TestRunner.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-015830b0efef47d49960e94d1cebd362
+# Starting compiling UnityEditor.UI.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-e58be56d8ae50f241a638b40423e4aaa
+# Starting compiling Unity.VSCode.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-d27d96fa2222d4944a0867903bec6d38
+# Starting compiling Unity.VisualStudio.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-76afb665a99cd15419f2ecbbd748122a
+# Starting compiling Unity.Timeline.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-c7156f8ef587c3e4fbb1d39e050c370e
+# Starting compiling Unity.TextMeshPro.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-c468e39c7ec72bb469cf2af23fd00ed7
+# Starting compiling Unity.PlasticSCM.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-c420a1e73eafe8f4191b1604fd59f17e
+# Starting compiling Unity.Rider.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-d5b263dd87d2d644eb5cfdd369cd908b
+# Starting compiling Unity.Mathematics.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-a4ebe3d34411ff34cbf40e045a49efc8
+# Starting compiling Unity.ML-Agents.CommunicatorObjects.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-4f68192d1d02dca4b842c0c30ef8ba9b
+# Starting compiling Unity.Burst.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-da501df40b5df424cbf4cd9a48f25da9
+# Starting compiling Unity.CollabProxy.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-2605770a67a088944ad488d989cefa86
+# Starting compiling Autodesk.Fbx.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-10e857fba39ecca4ba6f54cb02f944f0
+# Starting compiling Autodesk.Fbx.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-01a675a210803954aa14de492afc2aa2
+# Starting compiling Unity.Formats.Fbx.Runtime.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-08080ea8468d9f5409e661275c210d1d
+# Starting compiling Unity.Timeline.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-e5906ddc287647648874f221dde6e641
+# Starting compiling Unity.TextMeshPro.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-350c81fbae4240c459d31e308ff56cf5
+# Starting compiling FbxBuildTestAssets.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-a9154eb03d60588449b20a03868f3d82
+# Starting compiling Unity.Burst.CodeGen.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-486bc0ddabdb6c84f90665475139d706
+# Starting compiling Unity.Burst.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-8acea23ab016cac44b15bde5d968fd33
+# Starting IL post processing on UnityEngine.TestRunner.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-83a72a3035d643e41ba97ddef8c121e7
+# Starting compiling Unity.Formats.Fbx.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-6b5f0fca486cae1458b73c9a390ece33
+# Starting compiling Unity.Barracuda.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-f6f1abbd9f8859f47aa0985f034a8b4e
+# Starting compiling Unity.Mathematics.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-de62b2f63794d4f49be4988b2d085b83
+# Starting IL post processing on UnityEngine.UI.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-dce56f4c7f20e9f44bd9300b7f7f15dd
+# Starting IL post processing on UnityEditor.TestRunner.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-e84bc8033c701ab46971a33dd7a90306
+# Starting IL post processing on UnityEditor.UI.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-f07cb3b5142b80d44ae98276175efe49
+# Starting IL post processing on Autodesk.Fbx.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-bc216024312de3f4785525b0fc8a849a
+# Starting IL post processing on Unity.VisualStudio.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-fc38b156d2facd7478d4f5d06fdea3c6
+# Starting IL post processing on Unity.VSCode.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-e3862b243b7edeb46b9054ea3eaa7e45
+# Starting IL post processing on Unity.Timeline.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-846ee373be14f0a4c9e37c2d31c8af0e
+# Starting IL post processing on Unity.ML-Agents.CommunicatorObjects.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-643d7a9dd152b634c8a400f7d69904bc
+# Starting IL post processing on Unity.Rider.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-f2192c562b89bef47b767d36aaf05e3d
+# Starting IL post processing on Unity.CollabProxy.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-7849aa8a7b800fe42af040f73003f0c0
+# Starting IL post processing on Unity.TextMeshPro.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-f17ba632cdb9b0e49899f749045eebaf
+# Starting IL post processing on Unity.Formats.Fbx.Runtime.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-5d2983704590dd843bfc7448e013564c
+# Starting compiling Unity.ML-Agents.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-bf3fadcb68f9c2b41bae1bbb3a54b31f
+# Starting compiling Unity.Barracuda.ONNX.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-f4730eeebdd90ef46a92e5e460746c16
+# Starting compiling Unity.Barracuda.iOSBLAS.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-7b1907883a54d074fb190c0c1636e03a
+# Starting compiling Unity.Barracuda.BurstBLAS.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-4f03cf84be0cdbf448dfca714e4acd40
+# Starting compiling Unity.Barracuda.MacBLAS.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-35508d7d89f91cb4791c58e889c7d3a9
+# Starting compiling Unity.ML-Agents.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-895cdc408306a7242b22444be7c77ffb
+# Starting IL post processing on Autodesk.Fbx.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-4658e51aba141354e88c7d6634f6f10d
+# Starting IL post processing on Unity.PlasticSCM.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-a40190320499e5549b9c59d21e26b1bb
+# Starting IL post processing on Unity.Burst.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-887178c6518a82641b92cc362cb965bb
+# Starting IL post processing on Unity.TextMeshPro.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-95642dc981626a648a10572c7161190d
+# Starting IL post processing on Unity.Burst.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-2a77a1f1e13437a4db3bd12ea6841cc6
+# Starting IL post processing on Unity.Timeline.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-d63f57f5b21b5a642ad84bed424098f4
+# Starting IL post processing on FbxBuildTestAssets.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-99a7e5dab6a577b48a2ba3a0317c7977
+# Starting IL post processing on Unity.Mathematics.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-a7e8ebf6a36cbe44d938cadcfa468c69
+# Starting IL post processing on Unity.Mathematics.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-ea5e338c272828b4ea1a0ee4df960605
+# Starting IL post processing on Unity.Formats.Fbx.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-00c080411e9402144a95fb279417e763
+# Starting IL post processing on Unity.Barracuda.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-6c4cdfca1e70f6744b8d776afeb046b3
+# Starting IL post processing on Unity.ML-Agents.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-3ec58c4d7bb29844ba1384e05cd805be
+# Starting compiling Unity.Barracuda.Editor.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-a4107303f89ebad448cd7db56c0f506f
+# Starting IL post processing on Unity.Barracuda.MacBLAS.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-2a341a6ef68c84b4d96a50fa6ae2d09f
+# Starting IL post processing on Unity.Barracuda.iOSBLAS.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-8ab39e809f2bbed45b97178cfb5f00aa
+# Starting IL post processing on Unity.ML-Agents.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-ff714127454705e4eaf040541a73e60b
+# Starting IL post processing on Unity.Barracuda.BurstBLAS.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-371256f75b675c247a771979b0efba84
+# Starting IL post processing on Unity.Barracuda.ONNX.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-9aeeb2e8481f31e40af2890e893c53e5
+# Starting IL post processing on Unity.Barracuda.Editor.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-3194410be70da6e46a2a1c193ac17ab2
 # Starting compiling Assembly-CSharp.dll
-C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-b1dfac5efaf1f2549b6e47fdd7b701b8
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-f5f648e58aee6e64a941957683a474a6
 # Starting IL post processing on Assembly-CSharp.dll
-C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-f8c79deca9d69c04f999a631dbefab4f
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-fef07f8fecd41bd468bcc03c937ed2be
