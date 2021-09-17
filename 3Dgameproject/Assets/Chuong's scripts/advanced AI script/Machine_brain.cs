@@ -7,6 +7,10 @@ using Unity.MLAgents.Actuators;
 
 public class Machine_brain : Agent
 {
+    [SerializeField] private MeshRenderer floor;
+    [SerializeField] private Material win;
+    [SerializeField] private Material lose;
+
     public float movespedw =1f;
     public float movespedr= 2f;
     public GameObject mark;
@@ -15,12 +19,13 @@ public class Machine_brain : Agent
     float y = new float();
     private void FixedUpdate()
     {
-        SetReward(-1f);
+        
     }
     Vector3 kay = new Vector3();
     private void Start()
     {
-        kay = this.transform.position;
+        kay = transform.localPosition;
+   
     }
 
     private void Update()
@@ -30,13 +35,19 @@ public class Machine_brain : Agent
 
     public override void OnEpisodeBegin()
     {
-        this.transform.position = Vector3.zero;
+       transform.localPosition = kay;
+      // mark.transform.localPosition = new Vector3(Random.Range(-48f, +28f), 13.79f, Random.Range(-53.9f, +12.3f));
+        //if (mark.GetComponent<random_movement>().isActiveAndEnabled)
+        //{
+        //    mark.GetComponent<random_movement>().enabled = false;
+        //}
+        //else mark.GetComponent<random_movement>().enabled = true;
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        sensor.AddObservation(this.transform.position);
-        sensor.AddObservation(mark.transform.position);
+        sensor.AddObservation(transform.localPosition);
+        sensor.AddObservation(mark.transform.localPosition);
         
     }
 
@@ -44,10 +55,12 @@ public class Machine_brain : Agent
     {
         float movex = actions.ContinuousActions[0];
         float movez = actions.ContinuousActions[1];
+        float rotate = actions.ContinuousActions[2];
 
+        transform.position += new Vector3(movex, 0, movez) * Time.deltaTime * movespedw;
+        Quaternion target = Quaternion.Euler(0, rotate, 0);
 
-        this.transform.position += new Vector3(movex, 0, movez) * Time.deltaTime * movespedw;
-        
+        transform.rotation = Quaternion.Slerp(transform.rotation, target,  Time.deltaTime* 0.5f);
     }
     public override void Heuristic(in ActionBuffers actionsOut)
     {
@@ -64,15 +77,27 @@ public class Machine_brain : Agent
         if (collision.gameObject==mark)
         {
             
-            SetReward(+100f);
+            SetReward(+10f);
+            floor.material = win;
             EndEpisode();
         }
 
         if (collision.gameObject.TryGetComponent<wall>(out wall yes))
         {
+            SetReward(-20f);
+            floor.material = lose;
+            EndEpisode();
+        }
+
+        if (collision.gameObject.TryGetComponent<net>(out net yamete))
+        {
+            SetReward(-50f);
             EndEpisode();
         }
     }
+    
+
+
 
     private void OnDrawGizmosSelected()
     {

@@ -1,0 +1,38 @@
+{
+    "Gabe": {
+        "checkpoints": [
+            {
+                "steps": 499952,
+                "file_path": "results\\Fred\\Gabe\\Gabe-499952.onnx",
+                "reward": 2.727272727272727,
+                "creation_time": 1631854584.8704584,
+                "auxillary_file_paths": [
+                    "results\\Fred\\Gabe\\Gabe-499952.pt"
+                ]
+            },
+            {
+                "steps": 500016,
+                "file_path": "results\\Fred\\Gabe\\Gabe-500016.onnx",
+                "reward": 2.727272727272727,
+                "creation_time": 1631854584.9037285,
+                "auxillary_file_paths": [
+                    "results\\Fred\\Gabe\\Gabe-500016.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500016,
+            "file_path": "results\\Fred\\Gabe.onnx",
+            "reward": 2.727272727272727,
+            "creation_time": 1631854584.9037285,
+            "auxillary_file_paths": [
+                "results\\Fred\\Gabe\\Gabe-500016.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
