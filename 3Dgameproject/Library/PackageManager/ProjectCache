@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637672868881414220
-    m_Hash: 13188317
+      ticks: 637674778651210182
+    m_Hash: 2856800783
   m_LockFileStatus:
     m_FilePath: C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637672868881464082
-    m_Hash: 1626837106
+      ticks: 637674778651260053
+    m_Hash: 2386602332
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
