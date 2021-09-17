@@ -61,3 +61,13 @@ crashlytics-build.properties
 *.log
 *.log
 3Dgameproject/Temp/UnityLockfile
+3Dgameproject/venv/Lib/site-packages/torch/lib/cublasLt64_11.dll
+3Dgameproject/venv/Lib/site-packages/torch/lib/cudnn_cnn_infer64_8.dll
+3Dgameproject/venv/Lib/site-packages/torch/lib/cudnn_ops_infer64_8.dll
+3Dgameproject/venv/Lib/site-packages/torch/lib/cufft64_10.dll
+3Dgameproject/venv/Lib/site-packages/torch/lib/cusolver64_10.dll
+3Dgameproject/venv/Lib/site-packages/torch/lib/cusolverMg64_10.dll
+3Dgameproject/venv/Lib/site-packages/torch/lib/cusparse64_11.dll
+3Dgameproject/venv/Lib/site-packages/torch/lib/torch_cpu.dll
+3Dgameproject/venv/Lib/site-packages/torch/lib/torch_cuda.dll
+3Dgameproject/Library/PackageCache/com.unity.burst@1.6.0/.Runtime/hostmac/lld
