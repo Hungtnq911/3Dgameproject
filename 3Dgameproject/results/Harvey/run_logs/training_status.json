@@ -2,37 +2,37 @@
     "Gabe": {
         "checkpoints": [
             {
-                "steps": 499998,
-                "file_path": "results\\Harvey\\Gabe\\Gabe-499998.onnx",
-                "reward": 4.7727272727272725,
-                "creation_time": 1631868162.4573574,
+                "steps": 499976,
+                "file_path": "results\\Harvey\\Gabe\\Gabe-499976.onnx",
+                "reward": 9.605263157894736,
+                "creation_time": 1631933584.8727994,
                 "auxillary_file_paths": [
-                    "results\\Harvey\\Gabe\\Gabe-499998.pt"
+                    "results\\Harvey\\Gabe\\Gabe-499976.pt"
                 ]
             },
             {
-                "steps": 500062,
-                "file_path": "results\\Harvey\\Gabe\\Gabe-500062.onnx",
-                "reward": 4.7727272727272725,
-                "creation_time": 1631868162.4912667,
+                "steps": 500040,
+                "file_path": "results\\Harvey\\Gabe\\Gabe-500040.onnx",
+                "reward": 9.605263157894736,
+                "creation_time": 1631933584.910698,
                 "auxillary_file_paths": [
-                    "results\\Harvey\\Gabe\\Gabe-500062.pt"
+                    "results\\Harvey\\Gabe\\Gabe-500040.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 500062,
+            "steps": 500040,
             "file_path": "results\\Harvey\\Gabe.onnx",
-            "reward": 4.7727272727272725,
-            "creation_time": 1631868162.4912667,
+            "reward": 9.605263157894736,
+            "creation_time": 1631933584.910698,
             "auxillary_file_paths": [
-                "results\\Harvey\\Gabe\\Gabe-500062.pt"
+                "results\\Harvey\\Gabe\\Gabe-500040.pt"
             ]
         }
     },
     "metadata": {
         "stats_format_version": "0.3.0",
         "mlagents_version": "0.27.0",
-        "torch_version": "1.7.1+cu110"
+        "torch_version": "1.9.0+cpu"
     }
 }
