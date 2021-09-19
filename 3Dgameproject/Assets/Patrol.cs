@@ -10,9 +10,11 @@ public class Patrol : MonoBehaviour
     private int destPoint = 0;
     private NavMeshAgent agent;
     public Transform mark;
-    public float radius_sense = 3f;
+    public float radius_sense = 20f;
+    private Animator animator;
     void Start()
     {
+        animator = GetComponentInChildren<Animator>();
         agent = GetComponent<NavMeshAgent>();
 
         // Disabling auto-braking allows for continuous movement
@@ -26,6 +28,8 @@ public class Patrol : MonoBehaviour
 
     void GotoNextPoint()
     {
+        agent.speed = 7f;
+        animator.SetFloat("botSpeed", 0f);
         // Returns if no points have been set up
         if (Points.Length == 0)
             return;
@@ -52,9 +56,12 @@ public class Patrol : MonoBehaviour
             agent.isStopped = true;
             agent.isStopped = false;
             agent.SetDestination(mark.position);
+            agent.speed = 11;
+            animator.SetFloat("botSpeed", 1f);
         }
         else
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
             GotoNextPoint();
+
     }
 }
