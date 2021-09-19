@@ -290,7 +290,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
+  MaxStep: 200
   floor: {fileID: 7308030846054406759}
   win: {fileID: -3846018093981099296, guid: f69558c70b00db24786d8fd335306a65, type: 3}
   lose: {fileID: 3237133670461896277, guid: c130874025ec65543a89b8000a8ba7e6, type: 3}

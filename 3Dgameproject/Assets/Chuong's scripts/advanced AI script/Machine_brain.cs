@@ -14,6 +14,7 @@ public class Machine_brain : Agent
     public float movespedw =1f;
     public float movespedr= 2f;
     public GameObject mark;
+    private wall[] Wall ;
     //public SensorComponent eye;
     //public SensorComponent heart;
     float y = new float();
@@ -25,7 +26,6 @@ public class Machine_brain : Agent
     private void Start()
     {
         kay = transform.localPosition;
-   
     }
 
     private void Update()
@@ -36,7 +36,8 @@ public class Machine_brain : Agent
     public override void OnEpisodeBegin()
     {
        transform.localPosition = kay;
-      // mark.transform.localPosition = new Vector3(Random.Range(-48f, +28f), 13.79f, Random.Range(-53.9f, +12.3f));
+      //
+       mark.transform.localPosition = new Vector3(Random.Range(-48f, +28f), 13.79f, Random.Range(-53.9f, +12.3f));
         //if (mark.GetComponent<random_movement>().isActiveAndEnabled)
         //{
         //    mark.GetComponent<random_movement>().enabled = false;
@@ -48,7 +49,7 @@ public class Machine_brain : Agent
     {
         sensor.AddObservation(transform.localPosition);
         sensor.AddObservation(mark.transform.localPosition);
-        
+       
     }
 
     public override void OnActionReceived(ActionBuffers actions)

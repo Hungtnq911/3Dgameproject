@@ -2,28 +2,37 @@
     "Gabe": {
         "checkpoints": [
             {
-                "steps": 275242,
-                "file_path": "results\\Frank\\Gabe\\Gabe-275242.onnx",
-                "reward": 10.0,
-                "creation_time": 1631871122.1915896,
+                "steps": 499987,
+                "file_path": "results\\Frank\\Gabe\\Gabe-499987.onnx",
+                "reward": 8.444444444444445,
+                "creation_time": 1631932464.6563172,
                 "auxillary_file_paths": [
-                    "results\\Frank\\Gabe\\Gabe-275242.pt"
+                    "results\\Frank\\Gabe\\Gabe-499987.pt"
+                ]
+            },
+            {
+                "steps": 500115,
+                "file_path": "results\\Frank\\Gabe\\Gabe-500115.onnx",
+                "reward": 8.444444444444445,
+                "creation_time": 1631932464.6922214,
+                "auxillary_file_paths": [
+                    "results\\Frank\\Gabe\\Gabe-500115.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 275242,
+            "steps": 500115,
             "file_path": "results\\Frank\\Gabe.onnx",
-            "reward": 10.0,
-            "creation_time": 1631871122.1915896,
+            "reward": 8.444444444444445,
+            "creation_time": 1631932464.6922214,
             "auxillary_file_paths": [
-                "results\\Frank\\Gabe\\Gabe-275242.pt"
+                "results\\Frank\\Gabe\\Gabe-500115.pt"
             ]
         }
     },
     "metadata": {
         "stats_format_version": "0.3.0",
         "mlagents_version": "0.27.0",
-        "torch_version": "1.7.1+cu110"
+        "torch_version": "1.9.0+cpu"
     }
 }

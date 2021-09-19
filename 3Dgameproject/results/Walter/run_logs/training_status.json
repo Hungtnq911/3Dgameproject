@@ -2,37 +2,37 @@
     "Gabe": {
         "checkpoints": [
             {
-                "steps": 499953,
-                "file_path": "results\\Walter\\Gabe\\Gabe-499953.onnx",
-                "reward": -20.0,
-                "creation_time": 1631853471.1196249,
+                "steps": 499991,
+                "file_path": "results\\Walter\\Gabe\\Gabe-499991.onnx",
+                "reward": 9.86111111111111,
+                "creation_time": 1631933336.4071805,
                 "auxillary_file_paths": [
-                    "results\\Walter\\Gabe\\Gabe-499953.pt"
+                    "results\\Walter\\Gabe\\Gabe-499991.pt"
                 ]
             },
             {
-                "steps": 500017,
-                "file_path": "results\\Walter\\Gabe\\Gabe-500017.onnx",
-                "reward": -20.0,
-                "creation_time": 1631853471.1545308,
+                "steps": 500055,
+                "file_path": "results\\Walter\\Gabe\\Gabe-500055.onnx",
+                "reward": 9.86111111111111,
+                "creation_time": 1631933336.4425929,
                 "auxillary_file_paths": [
-                    "results\\Walter\\Gabe\\Gabe-500017.pt"
+                    "results\\Walter\\Gabe\\Gabe-500055.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 500017,
+            "steps": 500055,
             "file_path": "results\\Walter\\Gabe.onnx",
-            "reward": -20.0,
-            "creation_time": 1631853471.1545308,
+            "reward": 9.86111111111111,
+            "creation_time": 1631933336.4425929,
             "auxillary_file_paths": [
-                "results\\Walter\\Gabe\\Gabe-500017.pt"
+                "results\\Walter\\Gabe\\Gabe-500055.pt"
             ]
         }
     },
     "metadata": {
         "stats_format_version": "0.3.0",
         "mlagents_version": "0.27.0",
-        "torch_version": "1.7.1+cu110"
+        "torch_version": "1.9.0+cpu"
     }
 }

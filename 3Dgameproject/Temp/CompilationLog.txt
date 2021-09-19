@@ -1,0 +1,4 @@
+# Starting compiling Assembly-CSharp.dll
+C:\Users\Acer\Desktop\gamemaking\2020.3.12f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-c43d79af499a9454c80b92fc48a54dd8
+# Starting IL post processing on Assembly-CSharp.dll
+C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/MonoBleedingEdge/bin/mono.exe C:/Users/Acer/Desktop/gamemaking/2020.3.12f1/Editor/Data/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe @C:/Users/Acer/Desktop/work/3Dgameproject/3Dgameproject/Temp/UnityTempFile-99ac93f3b957f3a46a96feb370bc49f1
