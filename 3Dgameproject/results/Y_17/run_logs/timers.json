@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1632041597",
+        "python_version": "3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Acer\\Desktop\\work\\mlagent\\venv\\Scripts\\mlagents-learn --initialize-from Y_16 --run-id Y_17",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.9.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1632041608"
+    },
+    "total": 10.311522199999999,
+    "count": 1,
+    "self": 0.00316919999999854,
+    "children": {
+        "run_training.setup": {
+            "total": 0.05288179999999998,
+            "count": 1,
+            "self": 0.05288179999999998
+        },
+        "TrainerController.start_learning": {
+            "total": 10.2554712,
+            "count": 1,
+            "self": 0.00017949999999977706,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 10.255278800000001,
+                    "count": 1,
+                    "self": 10.255278800000001
+                },
+                "TrainerController._save_models": {
+                    "total": 1.2899999999760325e-05,
+                    "count": 1,
+                    "self": 1.2899999999760325e-05
+                }
+            }
+        }
+    }
+}
