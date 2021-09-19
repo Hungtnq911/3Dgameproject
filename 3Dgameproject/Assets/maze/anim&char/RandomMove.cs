@@ -53,7 +53,7 @@ public class RandomMove : MonoBehaviour
         }
 
         // Update out position based on our start postion, destination and progress.
-        transform.localPosition = (destination * progress) + start * (1 - progress) - otherObject.transform.position.normalized* distance +otherObject.transform.position * Time.deltaTime;
+        transform.localPosition = (destination * progress) + start * (1 - progress) - otherObject.transform.localPosition.normalized* distance +otherObject.transform.localPosition * Time.deltaTime;
         //transform.position = (transform.position - otherObject.transform.position).normalized * distance + otherObject.transform.position;
 
         // If we have reached the destination, set it as the new start and pick a new random point. Reset the progress
