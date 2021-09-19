@@ -359,29 +359,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6baa2fa5ffbeadc449137319744da7e2, type: 3}
   m_PrefabInstance: {fileID: 1879922646}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1684983407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1684983406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af2b52d66b9787246a0804029a632ef4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 0
-  walkSpeed: 3
-  runSpeed: 6
-  IsGrounded: 0
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 8
-  gravity: -9.8
-  groundCheck: {fileID: 1444444615}
-  groundDistance: 0.4
-  animator: {fileID: 1684983409}
 --- !u!143 &1684983408
 CharacterController:
   m_ObjectHideFlags: 0
@@ -400,11 +377,6 @@ CharacterController:
   m_SkinWidth: 0.0001
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1.01, z: 0}
---- !u!95 &1684983409 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 6baa2fa5ffbeadc449137319744da7e2, type: 3}
-  m_PrefabInstance: {fileID: 1879922646}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1684983410 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6baa2fa5ffbeadc449137319744da7e2, type: 3}
@@ -553,7 +525,7 @@ CharacterController:
   m_GameObject: {fileID: 1742281885}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Height: 3.63
   m_Radius: 0.6
@@ -569,27 +541,34 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742281885}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af2b52d66b9787246a0804029a632ef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  walkSpeed: 3
-  runSpeed: 6
-  IsGrounded: 0
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 8
+  controller: {fileID: 0}
+  speed: 12
   gravity: -9.81
   groundCheck: {fileID: 1289766267}
   groundDistance: 0.4
-  animator: {fileID: 1742281888}
---- !u!95 &1742281888 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: ba5e234a3aa0e864a94ebfdaa4776755, type: 3}
-  m_PrefabInstance: {fileID: 1742281883}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 8
+--- !u!114 &1742281889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742281885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6461148f8fd1df54f8a560d13bf887f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 10
+  speed: 0.5
+  otherObject: {fileID: 1684983410}
 --- !u!1001 &1879922646
 PrefabInstance:
   m_ObjectHideFlags: 0
