@@ -9,11 +9,8 @@ public class RandomMove : MonoBehaviour
     private float x;
     private float y;
     private float z;
-    private float distance;
-    public Transform otherObject;
-
-
-
+    private float distance = 1f;
+   
 
     // The point we are going around in circles
     private Vector3 basestartpoint;
@@ -22,7 +19,7 @@ public class RandomMove : MonoBehaviour
     private Vector3 destination;
     // Start of our current move
     private Vector3 start;
-
+    public GameObject otherObject;
 
     // Current move's progress
     private float progress = 0.0f;
@@ -30,24 +27,20 @@ public class RandomMove : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        
         y = transform.localPosition.y;
-
+       
         start = transform.localPosition;
         basestartpoint = transform.localPosition;
         progress = 0.0f;
 
         PickNewRandomDestination();
-        distance = Vector3.Distance(otherObject.position, basestartpoint);
-
     }
 
     // Update is called once per frame
     void Update()
     {
-
         bool reached = false;
-
 
         // Update our progress to our destination
         progress += speed * Time.deltaTime;
@@ -57,35 +50,18 @@ public class RandomMove : MonoBehaviour
         {
             progress = 1.0f;
             reached = true;
-
-
         }
-
-
-
 
         // Update out position based on our start postion, destination and progress.
-
-        //transform.position = Vector3.Lerp(transform.position, Vector3(next.transform.position.x, next.transform.position.y, z), Time.deltaTime * speed);
-        distance = Vector3.Distance(otherObject.position, transform.position);
-        if (distance < 10)
-        {
-            reached = true;
-        }
-
-        transform.localPosition = (destination * progress) + start * (1 - progress);
-
+        transform.localPosition = (destination * progress) + start * (1 - progress) - otherObject.transform.localPosition.normalized* distance +otherObject.transform.localPosition * Time.deltaTime;
+        //transform.position = (transform.position - otherObject.transform.position).normalized * distance + otherObject.transform.position;
 
         // If we have reached the destination, set it as the new start and pick a new random point. Reset the progress
         if (reached)
         {
-
-            start = transform.position;
+            start = destination;
             PickNewRandomDestination();
-
             progress = 0.0f;
-
-
         }
     }
 
@@ -93,15 +69,9 @@ public class RandomMove : MonoBehaviour
     {
         // We add basestartpoint to the mix so that is doesn't go around a circle in the middle of the scene.
         //destination = Random.insideUnitSphere * radius + basestartpoint ;
-
-
+        
         x = Random.Range(-5f, 6f);
         z = Random.Range(-5f, 6f);
-
-
-        destination = new Vector3(x, y, z) * radius + basestartpoint;
-
-
+        destination = new Vector3(x, y, z)*radius + basestartpoint;
     }
-
 }
