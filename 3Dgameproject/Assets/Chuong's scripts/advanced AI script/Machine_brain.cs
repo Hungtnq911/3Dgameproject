@@ -26,12 +26,15 @@ public class Machine_brain : Agent
     private void Start()
     {
         kay = transform.localPosition;
+        y = 1;
     }
 
     private void Update()
     {
-   
+        y = Vector3.Distance(transform.position, kay);
     }
+
+    
 
     public override void OnEpisodeBegin()
     {
@@ -79,6 +82,10 @@ public class Machine_brain : Agent
         {
             
             SetReward(+10f);
+            if (y == 0)
+                SetReward(-1000 / 1);
+            else
+                SetReward(-1000 / y);
             floor.material = win;
             EndEpisode();
         }
@@ -86,6 +93,10 @@ public class Machine_brain : Agent
         if (collision.gameObject.TryGetComponent<wall>(out wall yes))
         {
             SetReward(-20f);
+            if (y == 0)
+                SetReward(-1000 / 1);
+            else
+                SetReward(-1000 / y);
             floor.material = lose;
             EndEpisode();
         }
@@ -93,11 +104,12 @@ public class Machine_brain : Agent
         if (collision.gameObject.TryGetComponent<net>(out net yamete))
         {
             SetReward(-50f);
+
             EndEpisode();
         }
     }
     
-
+  
 
 
     private void OnDrawGizmosSelected()

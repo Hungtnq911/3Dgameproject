@@ -38,13 +38,13 @@ public class movement : MonoBehaviour
             agent.isStopped = true;
             agent.isStopped = false;
             agent.SetDestination(mark.position);
-            this.GetComponent<Machine_brain>().enabled = false;
+
         }
         else
         {
             agent.isStopped = true;
             agent.isStopped = false;
-            this.GetComponent<Machine_brain>().enabled = true;
+        
         }
             //    if (ringed != null)
             //    {

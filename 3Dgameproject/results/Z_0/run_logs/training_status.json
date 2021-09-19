@@ -2,22 +2,31 @@
     "Gabe": {
         "checkpoints": [
             {
-                "steps": 65943,
-                "file_path": "results\\Z_0\\Gabe\\Gabe-65943.onnx",
-                "reward": -20.0,
-                "creation_time": 1632055296.1238332,
+                "steps": 499973,
+                "file_path": "results\\Z_0\\Gabe\\Gabe-499973.onnx",
+                "reward": 10.0,
+                "creation_time": 1632056096.034015,
                 "auxillary_file_paths": [
-                    "results\\Z_0\\Gabe\\Gabe-65943.pt"
+                    "results\\Z_0\\Gabe\\Gabe-499973.pt"
+                ]
+            },
+            {
+                "steps": 500165,
+                "file_path": "results\\Z_0\\Gabe\\Gabe-500165.onnx",
+                "reward": 10.0,
+                "creation_time": 1632056096.0818849,
+                "auxillary_file_paths": [
+                    "results\\Z_0\\Gabe\\Gabe-500165.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 65943,
+            "steps": 500165,
             "file_path": "results\\Z_0\\Gabe.onnx",
-            "reward": -20.0,
-            "creation_time": 1632055296.1238332,
+            "reward": 10.0,
+            "creation_time": 1632056096.0818849,
             "auxillary_file_paths": [
-                "results\\Z_0\\Gabe\\Gabe-65943.pt"
+                "results\\Z_0\\Gabe\\Gabe-500165.pt"
             ]
         }
     },

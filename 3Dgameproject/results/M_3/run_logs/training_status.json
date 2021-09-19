@@ -1,0 +1,29 @@
+{
+    "Gabe": {
+        "checkpoints": [
+            {
+                "steps": 352383,
+                "file_path": "results\\M_3\\Gabe\\Gabe-352383.onnx",
+                "reward": -0.47464881102878154,
+                "creation_time": 1632061032.9810324,
+                "auxillary_file_paths": [
+                    "results\\M_3\\Gabe\\Gabe-352383.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 352383,
+            "file_path": "results\\M_3\\Gabe.onnx",
+            "reward": -0.47464881102878154,
+            "creation_time": 1632061032.9810324,
+            "auxillary_file_paths": [
+                "results\\M_3\\Gabe\\Gabe-352383.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.9.0+cpu"
+    }
+}

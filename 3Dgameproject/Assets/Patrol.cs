@@ -9,8 +9,8 @@ public class Patrol : MonoBehaviour
     public Transform[] Points;
     private int destPoint = 0;
     private NavMeshAgent agent;
-
-
+    public Transform mark;
+    public float radius_sense = 3f;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -43,6 +43,17 @@ public class Patrol : MonoBehaviour
     {
         // Choose the next destination point when the agent gets
         // close to the current one.
+
+
+        float distance = Vector3.Distance(mark.position, transform.position);
+
+        if (distance <= radius_sense)
+        {
+            agent.isStopped = true;
+            agent.isStopped = false;
+            agent.SetDestination(mark.position);
+        }
+        else
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
             GotoNextPoint();
     }
