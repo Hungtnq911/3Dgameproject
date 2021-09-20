@@ -28,7 +28,7 @@ public class Patrol : MonoBehaviour
 
     void GotoNextPoint()
     {
-        agent.speed = 7f;
+        agent.speed = 20f;
         animator.SetFloat("botSpeed", 0f);
         // Returns if no points have been set up
         if (Points.Length == 0)
@@ -53,10 +53,8 @@ public class Patrol : MonoBehaviour
 
         if (distance <= radius_sense)
         {
-            agent.isStopped = true;
-            agent.isStopped = false;
             agent.SetDestination(mark.position);
-            agent.speed = 11;
+            agent.speed = 46f;
             animator.SetFloat("botSpeed", 1f);
         }
         else
