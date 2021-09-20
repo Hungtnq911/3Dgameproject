@@ -28,7 +28,7 @@ public class Patrol : MonoBehaviour
 
     void GotoNextPoint()
     {
-        agent.speed = 20f;
+        agent.speed = 30f;
         animator.SetFloat("botSpeed", 0f);
         // Returns if no points have been set up
         if (Points.Length == 0)

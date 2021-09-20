@@ -1338,7 +1338,6 @@ GameObject:
   - component: {fileID: 7627376951700835986}
   - component: {fileID: 4085740425021879046}
   - component: {fileID: 4085740425021879047}
-  - component: {fileID: 4085740425021879097}
   m_Layer: 0
   m_Name: Player with flashlight
   m_TagString: Untagged
@@ -1427,22 +1426,6 @@ MonoBehaviour:
   gravity: -9.81
   groundCheck: {fileID: 3055099446044319867}
   groundDistance: 0.4
-  animator: {fileID: 0}
---- !u!114 &4085740425021879097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3779116662916959826}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6461148f8fd1df54f8a560d13bf887f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 10
-  speed: 0.5
-  otherObject: {fileID: 0}
 --- !u!1 &3953344349044595318
 GameObject:
   m_ObjectHideFlags: 0
