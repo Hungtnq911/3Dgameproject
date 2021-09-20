@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     private CharacterController controller;
 
-    public Animator animator;
+    private Animator animator;
 
 
     void Start()
