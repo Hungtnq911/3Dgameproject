@@ -219,7 +219,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7cace1e3967a517479fb79c1c61430e6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -375,15 +375,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4085740424917765285, guid: 14aefe67f74b81a48aa6d53b10259c06, type: 3}
       propertyPath: m_Color.b
-      value: 0.38789603
+      value: 0.38951582
       objectReference: {fileID: 0}
     - target: {fileID: 4085740424917765285, guid: 14aefe67f74b81a48aa6d53b10259c06, type: 3}
       propertyPath: m_Color.g
-      value: 0.9056604
+      value: 0.745283
       objectReference: {fileID: 0}
     - target: {fileID: 4085740424917765285, guid: 14aefe67f74b81a48aa6d53b10259c06, type: 3}
       propertyPath: m_Color.r
-      value: 0.89770675
+      value: 0.7398926
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085740424917765285, guid: 14aefe67f74b81a48aa6d53b10259c06, type: 3}
+      propertyPath: m_Intensity
+      value: 1.38
       objectReference: {fileID: 0}
     - target: {fileID: 4085740424917765285, guid: 14aefe67f74b81a48aa6d53b10259c06, type: 3}
       propertyPath: m_SpotAngle
@@ -394,8 +398,16 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4085740424917765285, guid: 14aefe67f74b81a48aa6d53b10259c06, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085740424917765285, guid: 14aefe67f74b81a48aa6d53b10259c06, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085740424917765285, guid: 14aefe67f74b81a48aa6d53b10259c06, type: 3}
+      propertyPath: m_Shadows.m_Resolution
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4085740425021879046, guid: 14aefe67f74b81a48aa6d53b10259c06, type: 3}
       propertyPath: m_Enabled
@@ -957,6 +969,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0eb953fb634ecc74db70f27a3db22c7a, type: 3}
+--- !u!1 &1245512649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3779116662916959826, guid: 14aefe67f74b81a48aa6d53b10259c06, type: 3}
+  m_PrefabInstance: {fileID: 79551545}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1246110009
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,6 +1004,24 @@ Transform:
   m_Father: {fileID: 1500025432}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1247649224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0eb953fb634ecc74db70f27a3db22c7a, type: 3}
+  m_PrefabInstance: {fileID: 1215861122}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1247649225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247649224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de9fb3340e69144f97d1f8bf91d8b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1245512649}
 --- !u!1 &1376504521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,7 +1133,7 @@ PrefabInstance:
       objectReference: {fileID: 1200808410}
     - target: {fileID: 5221976820771407100, guid: efa433e3d25ef754196c9deefc2c59e2, type: 3}
       propertyPath: radius_sense
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5221976820771407100, guid: efa433e3d25ef754196c9deefc2c59e2, type: 3}
       propertyPath: Points.Array.size
