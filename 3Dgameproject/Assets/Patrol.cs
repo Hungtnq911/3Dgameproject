@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
-
+using UnityEngine.SceneManagement;
 
 public class Patrol : MonoBehaviour
 {
@@ -61,5 +61,16 @@ public class Patrol : MonoBehaviour
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
             GotoNextPoint();
 
+    }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject == mark)
+        {
+
+            SceneManager.LoadScene("LOSE");
+
+        }
     }
 }

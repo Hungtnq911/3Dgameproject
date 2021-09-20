@@ -13,7 +13,7 @@ public class END_game : MonoBehaviour
         if (collision.gameObject== Player)
         {
 
-            SceneManager.LoadScene("WIN");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
 
         }
     }
